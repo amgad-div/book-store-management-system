@@ -1,0 +1,36 @@
+﻿Build started 12/25/2021 11:32:23 AM.
+     1>Project "C:\Users\hacko\documents\visual studio 2010\Projects\Online Book Store Management System\Online Book Store Management System\Online Book Store Management System.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Online Book Store Management System.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Admin.cpp Customer.cpp User.cpp log.cpp
+         log.cpp
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\log.cpp(52): error C2653: 'Log' : is not a class or namespace name
+         User.cpp
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\user.cpp(5): error C2146: syntax error : missing ';' before identifier 'rec'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\user.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\user.cpp(5): error C2365: 'log' : redefinition; previous definition was 'function'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\user.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Customer.cpp
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(3): error C2146: syntax error : missing ';' before identifier 'rec'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(3): error C2365: 'log' : redefinition; previous definition was 'function'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(29): error C2228: left of '.BookLog' must have class/struct/union
+                 type is 'int'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(58): error C2228: left of '.BookLog' must have class/struct/union
+                 type is 'int'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(59): error C2228: left of '.CashLog' must have class/struct/union
+                 type is 'int'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(59): error C2039: 'NetPrice' : is not a member of 'Book'
+                 c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\book.h(12) : see declaration of 'Book'
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(101): error C3861: 'ListBookByC': identifier not found
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\customer.cpp(104): error C3861: 'ListBookByN': identifier not found
+         Admin.cpp
+     1>c:\users\hacko\documents\visual studio 2010\projects\online book store management system\online book store management system\staff.h(5): fatal error C1083: Cannot open include file: 'Library.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\hacko\documents\visual studio 2010\Projects\Online Book Store Management System\Online Book Store Management System\Online Book Store Management System.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.63
